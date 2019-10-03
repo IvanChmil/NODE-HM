@@ -6,8 +6,8 @@ const infoStudents = require('./infoStudents');
 dirMaker('jscx-1800','Barney Stinson');
 dirMaker('jscx-2000','Ted Mosby');
 
-let Barney = 'Age: 30, Skill: magic tricks, Work: P.L.E.A.S.E.';
-let Ted = 'Age: 28, Skill: drink, Work: architect';
+const Barney = 'Age: 30, Skill: magic tricks, Work: P.L.E.A.S.E.';
+const Ted = 'Age: 28, Skill: drink, Work: architect';
 
 infoStudents('jscx-1800','Barney Stinson',Barney);
 infoStudents('jscx-2000','Ted Mosby',Ted);
