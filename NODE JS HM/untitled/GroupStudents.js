@@ -1,14 +1,14 @@
 const fs = require('fs');
 
-function timeStudent(group,student) {
+function timeStudent(time,student) {
 
-    fs.mkdir(`./${group}`,err => {
+    fs.mkdir(`./${time}`,err => {
         if(!err){
             console.log("Group created")
         }
     });
 
-    fs.mkdir(`./${group}/${student}`,err => {
+    fs.mkdir(`./${time}/${student}`,err => {
         if(!err){
             console.log("Student created")
         }
