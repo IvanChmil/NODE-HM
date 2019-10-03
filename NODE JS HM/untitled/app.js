@@ -1,7 +1,6 @@
 const fs = require('fs');
 
 const dirMaker = require('./GroupStudents');
-
 const infoStudents = require('./infoStudents');
 
 dirMaker('jscx-1800','Barney Stinson');
